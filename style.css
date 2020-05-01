@@ -8,6 +8,7 @@ body {
 
 .header {
 	background-color: rgba(255, 255, 255, 0.75);
+	padding: 25px 0;
 }
 .container {
 	width: 1170px;
@@ -18,8 +19,6 @@ body {
 	content: "";
 	display: block;
 	clear: both;
-}
-.header {
 }
 
 .col-md-3 {
