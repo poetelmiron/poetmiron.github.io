@@ -37,6 +37,7 @@ body {
 .menu li {
 	width: 25%;
 	float: left;
+	border-left: 1px solid #2c71b8;
 }
 
 .menu a {
@@ -46,4 +47,6 @@ body {
 	text-align: center;
 	line-height: 50px;
 	font-weight: 300;
+	color: #2c71b8;
+	font-size: 21px;
 }
