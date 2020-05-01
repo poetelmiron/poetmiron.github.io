@@ -15,7 +15,8 @@ body {
 	margin: 0 auto;
 }
 
-.row:after,.menu:after {
+.row:after,
+.menu:after {
 	content: "";
 	display: block;
 	clear: both;
@@ -38,3 +39,11 @@ body {
 	float: left;
 }
 
+.menu a {
+	display: block;
+	text-decoration: none;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	font-weight: 300;
+}
