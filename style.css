@@ -4,3 +4,23 @@
 body {
 	font-family: "Roboto", sans-serif;
 }
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.header {
+}
+
+.col-md-3 {
+	width: 25%;
+}
+
+.col-md-6 {
+	width: 50%;
+}
+
+[class*="col-"] {
+	float: left;
+}
