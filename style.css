@@ -15,7 +15,7 @@ body {
 	margin: 0 auto;
 }
 
-.row:after {
+.row:after,.menu:after {
 	content: "";
 	display: block;
 	clear: both;
@@ -32,3 +32,9 @@ body {
 [class*="col-"] {
 	float: left;
 }
+
+.menu li {
+	width: 25%;
+	float: left;
+}
+
