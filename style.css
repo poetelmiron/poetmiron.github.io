@@ -49,6 +49,7 @@ body {
 .menu i {
 	width: 10px;
 	height: 7px;
+	margin-left: 3px;
 }
 .menu:last-child {
 	border-right: 1px solid #2c71b8;
@@ -81,6 +82,8 @@ input {
 	color: #2c71b8;
 	margin-left: 30px;
 	border: 1px solid #2c71b8;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
 input[name="q"] {
@@ -120,6 +123,7 @@ input::placeholder {
 	width: 40px;
 	height: 40px;
 	position: absolute;
+	float: right;
 }
 
 .buy i {
