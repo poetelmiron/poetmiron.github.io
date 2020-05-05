@@ -17,8 +17,7 @@ body {
 
 .row:after,
 .menu:after,
-.serch:after,
-.podmenu:after {
+.serch:after {
 	content: "";
 	display: block;
 	clear: both;
@@ -120,6 +119,8 @@ input::placeholder {
 	width: 40px;
 	height: 40px;
 	position: absolute;
+	margin-top: 5px;
+	margin-bottom: 5px;
 }
 
 .buy i {
@@ -128,8 +129,26 @@ input::placeholder {
 	height: 20px;
 	padding-top: 5px;
 	font-size: 15px;
+	position: relative;
 }
 
 .serch {
 	float: left;
 }
+
+.cart {
+	width: 40px;
+	height: 40px;
+	background-color: white;
+	float: left;
+	background-image: url(images/shop.png);
+	background-image: ;
+}
+
+.col-3 {
+	float: right;
+	width: 40px;
+	height: 40px;
+}
+
+
