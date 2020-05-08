@@ -183,6 +183,14 @@ nav .podmenu1 li a:hover {
 	padding-left: 21px;
 }
 
+nav .podmenu1 li a :first-child:hover {
+	background-color: white;
+	color: #2c71b8;
+	text-align: left;
+	width: 100%;
+	padding-left: 21px;
+}
+
 nav ul ul {
 	display: none;
 	position: absolute;
@@ -194,6 +202,12 @@ nav ul li:hover ul {
 
 .podmenu1 {
 	width: 293px;
+	height: 365px;
 	margin-left: -1px;
+	position: absolute;
+	padding: 25px 0;
 }
 
+.podmenu1 li:last-child {
+	padding-bottom: 28px;
+}
