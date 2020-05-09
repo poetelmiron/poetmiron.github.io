@@ -9,8 +9,8 @@ body {
 .header {
 	background-color: rgba(255, 255, 255, 0.75);
 	padding: 25px 0;
-	margin-bottom: 400px;
 }
+
 .container {
 	width: 1170px;
 	margin: 0 auto;
@@ -18,7 +18,8 @@ body {
 
 .row:after,
 .menu:after,
-.serch:after {
+.serch:after,
+.row2:after {
 	content: "";
 	display: block;
 	clear: both;
@@ -195,22 +196,34 @@ input::placeholder {
 	color: #2c71b8;
 }
 
-.conatiner2 {
+.container2 {
 	width: 1170px;
-	margin-left: 400px;
+	margin: 0 auto;
+	height: 2340px;
 }
 
-.device h3 {
-	color: white;
-	font-size: 21px;
+.stolbec__1 {
+	border: 1px solid white;
+	width: 270px;
+	height: 660px;
+	float: left;
+	position: absolute;
 }
 
-.device {
-	width: 127px;
-	height: 655px;
-	color: #ffffff;
-	font-family: Roboto;
-	font-size: 21px;
-	font-weight: 300;
-	line-height: 40px;
+.radio {
+	width: 25px;
+}
+
+.box {
+	width: 100%;
+	height: 400px;
+	background-color: #000000;
+	opacity: 0.2;
+}
+
+.pc {
+	width: 270px;
+	height: 180px;
+	border: 1px solid #ffffff;
+	background-color: #ffffff;
 }
