@@ -205,5 +205,11 @@ input::placeholder {
 	border-bottom: 1px solid white;
 }
 
-
-	
+.dev-type {
+	background-color: rgba(255, 255, 255, 0.25);
+	min-height: 800px;
+	line-height: 800px;
+	text-align: center;
+	font-size: 50px;
+	font-weight: 900;
+	color: rgba(0, 0, 0, .35);
