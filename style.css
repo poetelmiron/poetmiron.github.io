@@ -284,7 +284,6 @@ h2 {
 	font-size: 21px;
 	font-weight: 300;
 	margin: 10px 0;
-	width: 300px;
 }
 
 .bold {
@@ -307,3 +306,26 @@ sup {
 	font-size: 36px;
 }
 
+.button {
+	border: 1px solid white;
+	width: 210px;
+	margin: 0 auto;
+	margin-bottom: 15px;
+}
+
+.button > button {
+	width: 210px;
+	height: 50px;
+	background-color: inherit;
+	border: none;
+	color: white;
+	font-size: 21px;
+}
+
+.add-to-cart {
+	background: rgba(255, 255, 255, 0.1);
+}
+
+.col-md-dev {
+	width: 33.3%;
+}
