@@ -279,3 +279,31 @@ h2 {
 	font-size: 30px;
 	font-weight: bold;
 }
+
+.device-contant p {
+	font-size: 21px;
+	font-weight: 300;
+	margin: 10px 0;
+	width: 300px;
+}
+
+.bold {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.price h1 {
+	font-weight: bold;
+	font-size: 48px;
+}
+
+.price {
+	text-align: center;
+	padding: 20px 0;
+}
+
+sup {
+	vertical-align: super;
+	font-size: 36px;
+}
+
