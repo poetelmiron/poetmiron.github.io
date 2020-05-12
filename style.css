@@ -167,6 +167,7 @@ input::placeholder {
 	cursor: pointer;
 	margin: -1px;
 	display: block;
+	z-index: 2;
 }
 
 .submenu li a {
@@ -202,6 +203,45 @@ input::placeholder {
 	height: 400px;
 	background-color: #000000;
 	opacity: 0.2;
-	border-bottom: 1px solid white;
+	border-bottom: 2px solid white;
+}
+
+.col-devtype {
+	width: 270px;
+	height: 843px;
+	border: 1px solid #ffffff;
+	background-color: #ffffff;
+	opacity: 0.2;
+}
+
+.home-page {
+	width: 294px;
+	height: 15px;
+	display: inline;
+	margin-left: 30px;
+	line-height: 40px;
+	font-size: 14px;
+	color: #ffffff;
+	opacity: 0.5;
+}
+
+.laptop {
+	text-decoration: underline;
+	display: inline;
+}
+
+.tablets {
+	width: 429px;
+	height: 47px;
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 40px;
+	display: inline;
+	color: white;
+	margin-left: 30px;
+}
+
+.sort-price {
+	display: inline-block;
 }
 
