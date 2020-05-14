@@ -309,19 +309,6 @@ input::placeholder {
 	color: #2c71b8;
 }
 
-.subprice:after {
-	content: "\02c5";
-	position: absolute;
-	top: 0;
-	right: 0;
-	padding: 0 1em;
-}
-
-.sort-price {
-	float: left;
-	margin-left: 168px;
-}
-
 .tovars {
 	width: 100%;
 	height: 2015px;
