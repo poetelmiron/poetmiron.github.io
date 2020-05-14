@@ -255,23 +255,68 @@ input::placeholder {
 	margin-top: 20px;
 }
 
-.subprice {
-	width: 270px;
-	height: 40px;
-	border: 1px solid #ffffff;
+.dropdown {
+	display: inline-block;
+	position: absolute;
+	margin-left: 168px;
+}
+
+.dropdown button {
+	padding: 8px 16px;
 	background-color: #2c71b8;
 	color: white;
+	transition: 0.3s;
+	cursor: pointer;
+	border: 1px solid #ffffff;
+	width: 270px;
+	text-align: left;
 	font-size: 21px;
-	padding-left: 20px;
+}
+
+.dropdown:hover button {
+	color: white;
+}
+
+.dropdown div {
+	background-color: #2c71b8;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+	visibility: hidden;
+	position: absolute;
+	min-width: 100%;
+	opacity: 0;
+	transition: 0.3s;
+	font-size: 21px;
+	padding-left: 10px;
+}
+
+.dropdown:hover div {
+	visibility: visible;
+	opacity: 1;
+}
+
+.dropdown div a {
+	text-decoration: none;
+	padding: 8px;
+	color: white;
+	transition: 0.1s;
+	white-space: nowrap;
+	font-weight: normal;
+}
+
+.dropdown div a:hover {
+	background-color: white;
+	color: #2c71b8;
 }
 
 .subprice:after {
-	content: "\02EC";
+	content: "\02c5";
 	position: absolute;
 	top: 0;
 	right: 0;
 	padding: 0 1em;
 }
+
 .sort-price {
 	float: left;
 	margin-left: 168px;
