@@ -265,14 +265,13 @@ input::placeholder {
 	padding-left: 20px;
 }
 
-.subprice option {
-	width: 160px;
-	height: 100px;
-	color: white;
-	font-size: 21px;
-	font-weight: 300;
+.subprice:after {
+	content: "\02EC";
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 0 1em;
 }
-
 .sort-price {
 	float: left;
 	margin-left: 168px;
