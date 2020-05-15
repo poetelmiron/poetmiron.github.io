@@ -365,7 +365,58 @@ input::placeholder {
 	position: relative;
 }
 
-.ramocha:hover {
+.rollover {
+	background-image: url(images/heart.png);
+	background-repeat: no-repeat;
+	width: 18px;
+	height: 17px;
+	display: block;
+	border: 1px solid #2c71b8;
+	width: 30px;
+	height: 30px;
+	float: right;
+	margin-top: 10px;
+	margin-right: 10px;
+	padding: 5px;
+	background-position: center;
+}
+
+.rollover:hover {
+	background-image: url(images/heartwhite.png);
+	width: 18px;
+	height: 17px;
+	display: block;
+	background-color: #2c71b8;
+	border: 1px solid #2c71b8;
+	width: 30px;
+	height: 30px;
+}
+
+.vollover {
+	background-image: url(images/sqare.png);
+	background-repeat: no-repeat;
+	width: 18px;
+	height: 17px;
+	display: block;
+	border: 1px solid #2c71b8;
+	width: 30px;
+	height: 30px;
+	float: right;
+	margin-top: 10px;
+	margin-right: 10px;
+	padding: 5px;
+	background-position: center;
+}
+
+.vollover:hover {
+	background-image: url(images/sqarewhite.png);
+	width: 18px;
+	height: 17px;
+	display: block;
+	background-color: #2c71b8;
+	border: 1px solid #2c71b8;
+	width: 30px;
+	height: 30px;
 }
 
 .devicename {
