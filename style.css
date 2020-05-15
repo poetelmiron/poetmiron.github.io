@@ -456,16 +456,15 @@ p {
 }
 
 .price {
-	width: 147px;
-	height: 44px;
+	padding-left: 25px;
+	text-align: center;
 	color: white;
 	font-size: 48px;
-	font-weight: 700;
-	padding-left: 62px;
 }
 
 sup {
-	font-size: 15px;
+	font-size: 30px;
+	padding-left: 10px;
 }
 
 .button {
