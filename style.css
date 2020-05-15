@@ -365,6 +365,9 @@ input::placeholder {
 	position: relative;
 }
 
+.ramocha:hover {
+}
+
 .devicename {
 	width: 220px;
 	height: 213px;
