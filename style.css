@@ -418,6 +418,7 @@ sup {
 	width: 210px;
 	height: 115px;
 	margin-left: 15px;
+	margin-top: 25px;
 }
 
 .more {
@@ -435,15 +436,50 @@ sup {
 .add {
 	width: 210px;
 	height: 50px;
-	border: 1px solid white;
 	background-color: #2c71b8;
-	margin-top: 15px;
 	color: white;
 	font-size: 21px;
-	font-weight: bold;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
+
+.add:hover {
+	color: white;
+	background-color: white;
+}
+
+.but1:hover {
+	opacity: 0.7;
+	color: white;
+}
+
+.add1 {
+	width: 210px;
+	height: 50px;
+	background-color: #2c71b8;
+	color: white;
+	font-size: 21px;
+	font-weight: 700;
 	text-transform: uppercase;
 	margin-bottom: 30px;
-	background-image: url(images/shop.png);
+}
+
+.add1:hover {
+	color: white;
+	background-color: white;
+}
+
+.but1 {
+	width: 210px;
+	height: 50px;
+	background-color: #2c71b8;
+	color: white;
+	font-size: 21px;
+	text-transform: uppercase;
+	font-weight: bold;
+	cursor: pointer;
+	border: 1px solid white;
 }
 
 .dev-col1:after {
