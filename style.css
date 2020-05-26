@@ -619,6 +619,7 @@ sup {
 }
 
 .label {
+	display: block;
 }
 .checkbox {
 	display: none;
@@ -646,4 +647,20 @@ sup {
 	opacity: 1;
 }
 .text {
+	color: white;
+	padding-left: 10px;
+}
+
+.color {
+	text-transform: uppercase;
+	font-weight: bold;
+	color: white;
+	padding-top: 64px;
+}
+
+.ram {
+	text-transform: uppercase;
+	font-weight: bold;
+	color: white;
+	padding-top: 64px;
 }
