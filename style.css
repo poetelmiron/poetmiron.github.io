@@ -661,6 +661,7 @@ sup {
 	height: 10px;
 	border: 1px solid white;
 	position: relative;
+	cursor: pointer;
 }
 
 .fake::before {
@@ -680,6 +681,7 @@ sup {
 .text {
 	color: white;
 	padding-left: 10px;
+	cursor: pointer;
 }
 
 .color {
