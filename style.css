@@ -388,6 +388,7 @@ input::placeholder {
 	border: 1px solid #2c71b8;
 	width: 30px;
 	height: 30px;
+	cursor: pointer;
 }
 
 .vollover {
@@ -415,6 +416,7 @@ input::placeholder {
 	border: 1px solid #2c71b8;
 	width: 30px;
 	height: 30px;
+	cursor: pointer;
 }
 
 .devicename {
@@ -678,7 +680,6 @@ sup {
 .text {
 	color: white;
 	padding-left: 10px;
-	opacity: 0.7;
 }
 
 .color {
