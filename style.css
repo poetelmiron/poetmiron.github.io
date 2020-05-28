@@ -334,8 +334,8 @@ input::placeholder {
 	width: 100%;
 	height: 180px;
 	background-color: #ffffff;
-	opacity: 0.6;
 	position: relative;
+	background: rgb(202, 219, 237);
 }
 
 .pc {
@@ -708,4 +708,8 @@ sup {
 
 .button3 {
 	margin-top: 25px;
+}
+
+.pc img {
+	vertical-align: middle;
 }
